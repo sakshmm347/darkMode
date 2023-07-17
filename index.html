@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Theme</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>HELLO WORLD</h1>
+    <div class="container">
+      <div class="box">
+        <h2>Hello</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+        doloribus. Fugit, voluptate! Possimus labore, repellendus quae provident
+        ea esse odit, tenetur, ipsam voluptatum hic eos nesciunt et consectetur
+        tempore qui.
+      </div>
+      <div class="box">
+        <h2>Hey</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+        doloribus. Fugit, voluptate! Possimus labore, repellendus quae provident
+        ea esse odit, tenetur, ipsam voluptatum hic eos nesciunt et consectetur
+        tempore qui.
+      </div>
+      <div class="box">
+        <h2>Bye</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+        doloribus. Fugit, voluptate! Possimus labore, repellendus quae provident
+        ea esse odit, tenetur, ipsam voluptatum hic eos nesciunt et consectetur
+        tempore qui.
+      </div>
+      <button onclick="dark()">DARK MODE</button>
+      <!-- <button class="btn">DARK</button> -->
+    </div>
+
+    <script>
+      function dark() {
+        document.body.classList.toggle("dark");
+        // var btn = (document.querySelector("button").innerHTML = "light");
+      }
+
+      // var btn1 = document.getElementsByClassName("btn");
+      // btn1.addEventListener("click", dark());
+      // function dark() {
+      //   document.body.classList.add("dark");
+      //   var btn = (document.querySelector("button").innerHTML = "light");
+      // }
+
+      // setTimeout(function () {
+      //   document.body.classList.remove("dark");
+      // }, 100);
+      //}
+    </script>
+  </body>
+</html>
